@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Une page d'atterrissage simple pour THE KAM'S CONSTRUCTION">
+    <meta name="author" content="Paul Kakudji"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Page d'atterrissage - THE KAM'S CONSTRUCTION</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header, main, footer {
+            padding: 20px;
+            margin: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #0056b3;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-top: 10px;
+        }
+        input, select, textarea, button {
+            margin-top: 5px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #004494;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2><u>BIENVENUE DANS LA PAGE THE KAM'S CONSTRUCTION</u></h2>
+        <p>Nous sommes une entreprise de construction et nous recrutons des <b>INGÉNIEURS CIVILS</b> et des <b>techniciens en BTP</b> ayant une spécialisation en béton armé ou des connaissances en structure et matériaux.</p>
+    </header>
+    <main>
+        <img src="/img the Kam's construction.png" >
+        <p><b><u>Voici notre adresse :</u></b> Nous sommes situés dans la commune de Limeté, Quartier Industriel, Avenue Boboso N°28.</p>
+        <p><b><u>Attention :</u></b> Seuls ceux qui répondent aux critères suivants seront éligibles à être employés.</p>
+        <p><b>Critères d'éligibilité :</b></p>
+        <ol>
+            <li>Dépôt du CV est <i>obligatoire</i></li>
+            <li>Présentation d'un diplôme de master 2</li>
+            <li>Maîtrise de l'anglais et du français (<b>nécessaire</b>)</li>
+            <li>Avoir au moins 3 ans d'expérience</li>
+        </ol>
+        <p><b>N.B :</b> Le salaire minimum d'un <b>INGÉNIEUR CIVIL</b> dans THE KAM'S CONSTRUCTION s'élève à <u>12000$</u> et pour les <b>techniciens de BTP</b> est de <u>6500$</u>, sans compter les diverses primes.</p>
+        <p><b>SI VOUS REMPLISSEZ LES CRITÈRES D'ÉLIGIBILITÉ ET QUE VOUS ÊTES INTÉRESSÉ PAR NOTRE ENTREPRISE, VEUILLEZ REMPLIR LE FORMULAIRE SUIVANT :</b></p>
+        <form action="traitement.php" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+            
+            <label for="post-nom">Post-nom :</label>
+            <input type="text" id="post-nom" name="post-nom" required>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label>Genre :</label>
+            <div>
+                <input type="radio" id="homme" name="genre" value="homme" required>
+                <label for="homme">Homme</label>
+                <input type="radio" id="femme" name="genre" value="femme" required>
+                <label for="femme">Femme</label>
+            </div>
+            
+            <label for="ville">Ville :</label>
+            <select id="ville" name="ville" required>
+                <option value="Kinshasa">Kinshasa</option>
+                <option value="Lubumbashi">Lubumbashi</option>
+                <option value="Goma">Goma</option>
+                <option value="Kindu">Kindu</option>
+                <option value="autre">Autre</option>
+            </select>
+            
+            <label for="cv">Votre CV :</label>
+            <textarea id="cv" name="cv" rows="10" cols="35" required></textarea>
+            
+            <input type="checkbox" id="conditions" name="conditions" required>
+            <label for="conditions">J'accepte les conditions d'éligibilité de l'entreprise</label>
+            
+            <button type="submit">Postuler</button>
+        </form>
+    </main>
+    <footer>
+        Vous pouvez nous contacter à notre numéro WhatsApp Business : <b><a href ="https://wa.me/243852715188?text=Bonjour%2C%20je%20souhaite%20en%20savoir%20plus%20!" target="_blank" >+243 852715188</a></b> ou par notre adresse email : <a href="mailto:TheKamsConstruction@g.com">TheKamsConstruction@g.com</a>
+    </footer>
+</body>
+</html>
