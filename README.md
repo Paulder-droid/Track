@@ -9,7 +9,7 @@ Bienvenue sur mon portfolio GitHub ! 🚀 Ici, vous trouverez une sélection de 
 ### 1️⃣ **Page de Profil**  
 Une page personnelle simple et élégante présentant mon parcours, mes compétences et mes liens vers mes réseaux.  
 
-🔗 [Lien vers la page](https://nom_utilisateur.github.io/profil/)  
+🔗 [Lien vers la page](https://paulder-droid.github.io/Page-de-Profil/)  
 📁 [Code source](https://github.com/nom_utilisateur/profil)  
 
 #### 🛠️ Technologies utilisées  
