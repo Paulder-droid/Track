@@ -21,8 +21,8 @@ Une page personnelle simple et élégante présentant mon parcours, mes compéte
 ### 2️⃣ **Page d'Atterrissage (Landing Page)**  
 Une page conçue pour convertir des visiteurs en clients potentiels avec un design attrayant et professionnel.  
 
-🔗 [Lien vers la page](https://Paulder-droid.github.io/landing-page/)  
-📁 [Code source](https://github.com/Paulder-droid/landing-page)  
+🔗 [Lien vers la page](https://paulder-droid.github.io/Track/landing-page/)  
+📁 [Code source](https://github.com/paulder-droid/landing-page)  
 
 #### 🛠️ Technologies utilisées  
 - HTML5  
@@ -44,7 +44,7 @@ Un site web minimaliste mettant en valeur un produit, une marque ou un service.
 ### 4️⃣ **Projet E-commerce**  
 Un modèle de site e-commerce conçu pour mettre en avant des produits avec une interface utilisateur soignée et moderne.  
 
-🔗 [Lien vers la page](https://Paulder-droid.github.io/ecommerce/)  
+🔗 [Lien vers la page](https://paulder-droid.github.io/Track/ecommerce)  
 📁 [Code source](https://github.com/Paulder-droid/ecommerce)  
 
 #### 🛠️ Technologies utilisées  
